@@ -1,3 +1,4 @@
+!pip install --upgrade pip
 import torch
 import torchvision.models as models
 import streamlit as st
@@ -7,7 +8,7 @@ import torch.nn.functional as F
 import numpy as np
 import matplotlib.pyplot as plt
 
-pip install --upgrade pip
+
 
 def preprocess_image(image_path, image_size=224):
     # Load the image
